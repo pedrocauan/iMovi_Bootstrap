@@ -175,10 +175,7 @@
     .carousel-indicators {
         bottom: 7em;
     }
-
-}
-
-@media(min-width: 768px) {
+    /*joga os cards pra denrto do banner*/
     #mini-banners {
         margin-top: -6em;
     }
