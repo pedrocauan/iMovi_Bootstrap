@@ -130,6 +130,29 @@
     border-radius: 0;
 }
 
+/*== MINI BANNERS ==*/
+#mini-banners  {
+    margin-bottom: 4em;
+}
+
+.card {
+    margin-bottom: 4em;
+}
+
+/*Espaçamento interno do card*/
+#mini-banners .card {
+    padding: 2em 0.3em;
+    border-radius: 0;
+}
+
+#mini-banners i {
+    font-size: 4em;
+}
+
+#mini-banners .card-title {
+    font-size: 1em;
+}
+
 /*Media do desktop*/
 @media(min-width: 768px) {
     /* Joga os itens do slide pra cima*/
@@ -151,6 +174,13 @@
     /* Sobe os indicators no desktop*/
     .carousel-indicators {
         bottom: 7em;
+    }
+
+}
+
+@media(min-width: 768px) {
+    #mini-banners {
+        margin-top: -6em;
     }
 
 }
