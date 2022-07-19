@@ -81,13 +81,51 @@
 }
 
 /* SLIDER */
+#slider {
+    margin-top: 8em; /*Afasta o slide do menu*/
+    margin-bottom: 1em; /*afasta o slide do proximo conteúdo em baixo dele*/
+}
 
-/*Botoes dos sliders*/
-/* .carousel-indicators button {
-    border: 0;
-    margin: 5px;
-    width: 40px;
-    height: 3px;
-    border-radius: 2px;
-} */
+/* IMAGENS DO CARROSSEL*/
 
+/* Sobe a descrição do slide */
+
+
+#slider .carousel-caption {
+    bottom: 3em; 
+}
+
+/*Descriçao do slide*/
+ #slider .carousel-caption h5 {
+    font-size: 2.5em; 
+    text-shadow: rgba(0, 0,0, 0.5) 2px 2px; /* Sombra na descrição do slide*/
+} 
+
+#slider .btn {
+    padding: 0.3em 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+/*Aumenta o tamanho da setinha e muda a cor dela pra preto*/
+.carousel-control-prev i, 
+.carousel-control-next i {
+    color: #111;
+    font-size: 2.5em;
+}
+
+/*muda a cor dos indicators pra preto*/
+.carousel-indicators [data-bs-target]{
+    background-color: #222;
+    opacity: 0.8;
+}
+
+/*Deixa o indicator selecionado mais destacado*/
+.carousel-indicators .active{
+    background-color: black;
+}
+
+/* BOTOES DO SITE*/
+.btn {
+    border-radius: 0;
+}
